@@ -1,6 +1,9 @@
 # automation
 scripts to boost working performance
 
+
+demo abcxyz
+
 `postgres_setup_action_logger.sh` and `postgres_logged_action.sh` are scripts to install a watcher in the Postgresql database. So when there are operations made on a predetermined table, our watcher, which is just another table, would record its query and every other useful information.
 
 So first we have to create a watcher table. Run the script `postgres_setup_action_logger.sh` with 2 parameters:
